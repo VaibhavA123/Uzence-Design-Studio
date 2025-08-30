@@ -321,4 +321,3 @@ export function Demo() {
     </div>
     );
 }
-// export default { DataTable, sampleUsers, userColumns, Demo };
