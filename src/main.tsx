@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import InputField from "./input";
 import { DataTable, sampleUsers, userColumns } from "./datatable";
-// import sampleUsers from "./datatable";
-// import userColumns from "./datatable";
+
 
 export interface User {
     id: number;
