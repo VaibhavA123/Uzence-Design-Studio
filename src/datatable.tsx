@@ -60,7 +60,7 @@ const handleSort = (column: Column<T>) => {
     if (current?.key === column.dataIndex) {
         return current.direction === "asc"
             ? { key: column.dataIndex, direction: "desc" }
-          : null; // remove sort if clicked again
+          : null;
         }
         return { key: column.dataIndex, direction: "asc" };
     });
